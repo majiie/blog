@@ -3,9 +3,16 @@
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 iframe {
     width: 100dvw;
     height: 100dvh;
-    overflow: none;
+    overflow: hidden;
     border: none;
 }
